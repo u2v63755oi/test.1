@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DE81664F-29EF-42D0-8E18-A96090DAA474}</ProjectGuid>
+    <RootNamespace>test1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\boost_1_76_0\include\boost-1_76</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\boost_1_76_0\stage\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\boost_1_76_0\include\boost-1_76;C:\eigen-3.4-rc1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\boost_1_76_0\stage\lib\x64;C:\boost_1_76_0\stage\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\AdditionThoracicWall.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\AffineTransformation.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactReductionFEM.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactVoiExtraction.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Binarization.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Center.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ConvergentIndex.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\CorrectionBackgroundTrend.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Delaunay.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DicomDirReader.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DicomExchanger.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DistanceTransfer.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\EdgeProcessing.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ElasticMatching.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\EvaluationFunction.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\FusionImageCreator.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GaussFilter.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GeneticAlgorithm.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GGVF.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatchingDsc.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMathing.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GrayScale_transformation.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Histogram.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\HistogramEvaluation.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ImageIO.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ImageProcessing.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\LocalMatching.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\main.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\MorphologicalOperation.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\MutualInformation.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\NoiseClean.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\OtsuMethod.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Registration.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\RemoveByLungWall.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\SegmentationLung.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Subtraction.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TemplateMatching.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TemporalSubtraction.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TetrahedronFemRegistration.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TSData.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\VolumeOfInterest.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelMatching.cpp" />
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Warping.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\AdditionThoracicWall.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\AffineTransformation.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactReductionFEM.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactVoiExtraction.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Binarization.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Center.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ConstData.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Control.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ConvergentIndex.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\CorrectionBackgroundTrend.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Delaunay.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Diagram.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DicomDirReader.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DicomExchanger.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DistanceTransfer.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\EdgeProcessing.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ElasticMatching.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\EvaluationFunction.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\FEM.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\FusionImageCreator.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GaussFilter.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GeneticAlgorithm.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GGVF.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatching.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatchingDsc.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GrayScale_transformation.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Harris.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Histogram.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\HistogramEvaluation.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageInfo.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageIO.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImagePro.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageProcessing.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Labeling.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\LocalMatching.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Macro.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Main01.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\MorphologicalOperation.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\MutualInformation.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\NoiseClean.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\OtsuMethod.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Registration.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\RemoveByLungWall.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\SegmentationLung.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\SIFT.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Struct.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Subtraction.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TemplateMatching.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TemporalSubtraction.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TetrahedronFemRegistration.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TSData.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VolumeOfInterest.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelMatching.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelScaler.h" />
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Warping.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

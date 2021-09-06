@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\AdditionThoracicWall.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\AffineTransformation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactReductionFEM.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactVoiExtraction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Binarization.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Center.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ConvergentIndex.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\CorrectionBackgroundTrend.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Delaunay.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DicomDirReader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DicomExchanger.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\DistanceTransfer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\EdgeProcessing.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ElasticMatching.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\EvaluationFunction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\FusionImageCreator.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GaussFilter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GeneticAlgorithm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GGVF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatchingDsc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMathing.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\GrayScale_transformation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Histogram.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\HistogramEvaluation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ImageIO.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\ImageProcessing.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\LocalMatching.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\MorphologicalOperation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\MutualInformation.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\NoiseClean.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\OtsuMethod.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Registration.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\RemoveByLungWall.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\SegmentationLung.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Subtraction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TemplateMatching.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TemporalSubtraction.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TetrahedronFemRegistration.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\TSData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\VolumeOfInterest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelMatching.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TemporalSubtraction\TemporalSubtraction\Warping.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\AdditionThoracicWall.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\AffineTransformation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactReductionFEM.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ArtifactVoiExtraction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Binarization.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Center.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ConstData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Control.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ConvergentIndex.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\CorrectionBackgroundTrend.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Delaunay.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Diagram.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DicomDirReader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DicomExchanger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\DistanceTransfer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\EdgeProcessing.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ElasticMatching.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\EvaluationFunction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\FEM.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\FusionImageCreator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GaussFilter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GeneticAlgorithm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GGVF.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatching.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GlobalMatchingDsc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\GrayScale_transformation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Harris.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Histogram.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\HistogramEvaluation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageInfo.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageIO.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImagePro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\ImageProcessing.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Labeling.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\LocalMatching.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Macro.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Main01.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\MorphologicalOperation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\MutualInformation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\NoiseClean.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\OtsuMethod.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Registration.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\RemoveByLungWall.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\SegmentationLung.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\SIFT.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Struct.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Subtraction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TemplateMatching.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TemporalSubtraction.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TetrahedronFemRegistration.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\TSData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VolumeOfInterest.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelMatching.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\VoxelScaler.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TemporalSubtraction\TemporalSubtraction\Warping.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
